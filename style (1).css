@@ -1,0 +1,63 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://static.zerochan.net/Hu.Tao.full.3545152.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #eee;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.game-box {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#clickBtn {
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#startBtn {
+  margin-top: 20px;
+}
